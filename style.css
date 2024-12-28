@@ -1,0 +1,68 @@
+/* Estilo para el cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column; /* Asegura que los elementos estén uno sobre otro */
+  text-align: center;
+}
+
+/* Contenedor para el formulario */
+.container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  margin: 10px 0;
+  border: 1px solid #940d0d;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo para el mensaje grande */
+#message {
+  display: none;
+  font-size: 80px;
+  color: #16cc10;
+  font-weight: bold;
+  margin-top: 50px; /* Para asegurarse de que no se solape */
+}
+
+/* Clase para ocultar elementos */
+.hidden {
+  display: none;
+}
+
+#response {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4CAF50;
+  text-align: center;
+}
